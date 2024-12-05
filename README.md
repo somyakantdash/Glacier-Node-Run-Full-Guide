@@ -57,7 +57,7 @@ Currently, we will automatically mint the Node License NFT for you on the OpBNB 
 docker run -d -e PRIVATE_KEY=Private_Key --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
 
-Note: Must replace ur Private_Key
+Note: Must Replace "Private_Key" with your actual Wallet Private Key
 
 ## Check ur Logs
 ```
@@ -80,7 +80,7 @@ https://testnet.opbnbscan.com/
 ```
 docker run -d -e PRIVATE_KEY=Private_Key --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
-Note: Must replace ur Private_Key
+Note: Must Replace "Private_Key" with your actual Wallet Private Key
 ```
 docker logs -f glacier-verifier
 ```

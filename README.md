@@ -54,8 +54,10 @@ Currently, we will automatically mint the Node License NFT for you on the OpBNB 
 
 ## Run A Node
 ```
-docker run -d -e PRIVATE_KEY=PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
+docker run -d -e PRIVATE_KEY=Private_Key --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
+
+Note: Must replace ur Private_Key
 
 ## Check ur Logs
 ```
@@ -65,6 +67,23 @@ docker logs -f glacier-verifier
 ## Check ur Status
 
 https://testnet.nodes.glacier.io/status
+
+## Check ur NFT
+
+https://testnet.opbnbscan.com/
+
+## 🔶For Next Day Run This Command
+
+#1 Open docker 1st 
+
+#2 Now Open WSL and Put this Command 
+```
+docker run -d -e PRIVATE_KEY=Private_Key --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
+```
+Note: Must replace ur Private_Key
+```
+docker logs -f glacier-verifier
+```
 
 # Glacier Points - Season III
 

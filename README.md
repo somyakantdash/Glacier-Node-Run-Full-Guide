@@ -74,13 +74,9 @@ https://testnet.opbnbscan.com/
 
 ## 🔶For Next Day Run This Command
 
-#1 Open docker 1st 
+#1 Open docker 1st (Start ur Glacier Node Container ID it's already exist in ur Docker)
 
 #2 Now Open WSL and Put this Command 
-```
-docker run -d -e PRIVATE_KEY=Private_Key --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
-```
-Note: Must Replace "Private_Key" with your actual Wallet Private Key
 ```
 docker logs -f glacier-verifier
 ```
